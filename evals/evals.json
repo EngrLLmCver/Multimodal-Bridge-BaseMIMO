@@ -1,0 +1,23 @@
+{
+  "skill_name": "multimodal-bridge",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "帮我看下 picture/test.png 里面是什么内容",
+      "expected_output": "运行 vision_api.py 处理图片，生成 document/test.md，包含图片的详细文字描述",
+      "files": ["picture/test.png"]
+    },
+    {
+      "id": 2,
+      "prompt": "这个PDF帮我提取文字，路径是 E:/files/report.pdf",
+      "expected_output": "运行 vision_api.py 处理 PDF，生成 document/report.md，包含 PDF 的完整文本内容",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "识别一下这张截图里的表格数据 picture/table_screenshot.jpg，我需要 Markdown 表格格式",
+      "expected_output": "运行 vision_api.py 处理图片，生成 document/table_screenshot.md，表格数据转为 Markdown 表格",
+      "files": ["picture/table_screenshot.jpg"]
+    }
+  ]
+}

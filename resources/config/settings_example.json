@@ -1,0 +1,6 @@
+{
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "your-mimo-api-key-here",
+    "ANTHROPIC_BASE_URL": "https://api.xiaomimimo.com/anthropic"
+  }
+}
