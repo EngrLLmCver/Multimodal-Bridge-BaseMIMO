@@ -4,6 +4,11 @@
 *.env
 credentials.json
 settings.json
+.claude/settings.local.json
+.cursor/
+.aider*
+.continue/
+.cody/
 
 # 2. 🐍 Python 运行时产生的缓存与虚拟环境
 __pycache__/
@@ -22,6 +27,21 @@ pip-delete-this-directory.txt
 .idea/
 .DS_Store
 Thumbs.db
+
+# AI 工具本地配置
+.claude/settings.local.json
+.cursor/
+.aider*
+.continue/
+.cody/
+
+# 密钥和凭证
+*.pem
+*.key
+credentials.json
+.npmrc
+.aws/
+.ssh/
 
 # 4. 📊 运行测试时可能产生的大量临时文件
 # 如果你在 test-project 里运行脚本会生成大批测试图片/文档，可以取消下面这行的注释：
